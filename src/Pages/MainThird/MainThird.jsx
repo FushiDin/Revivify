@@ -23,44 +23,25 @@ function MainThird() {
     document.body.appendChild(script);
   }, []);
 
-   const handleClick = () => {
-        window.open('https://wa.me/qr/FHTTX3GA3XUAM1', '_blank');
-    };
+  const handleClick = () => {
+    window.open('https://wa.me/qr/FHTTX3GA3XUAM1', '_blank');
+  };
 
   return (
-    <div style={{
-      display: 'flex',
-      flexWrap: 'wrap',
-      gap: '30px',
-      padding: '30px',
-      backgroundColor: '#f5f5f5'
-    }}>
-      
-      <div style={{
-        width: '350px',
-        backgroundColor: 'white',
-        padding: '20px',
-        borderRadius: '12px',
-        boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)'
-      }}>
+    <div className={styles.mainThird}>
+      <div className={styles.infoBlock}>
         <h2>Контакты</h2>
         <p><strong>Город:</strong> Алматы</p>
         <p><strong>Время работы:</strong> 24/7</p>
         <p><strong>Телефоны:</strong></p>
-        <p>+7 (747) 588 08 06</p>
-        <p>+7 (747) 588 08 06</p>
+        <p>+7 (747) 548 08 06</p>
+        <p>+7 (747) 548 08 06</p>
         <button onClick={handleClick} className={styles.buttons}>
           Написать нам
         </button>
       </div>
 
-      <div id="map" style={{
-        flex: 1,
-        minWidth: '400px',
-        height: '500px',
-        borderRadius: '12px',
-        overflow: 'hidden'
-      }}></div>
+      <div id="map" className={styles.map}></div>
     </div>
   );
 }
