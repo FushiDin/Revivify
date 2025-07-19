@@ -21,8 +21,8 @@ function Header() {
 
                 <div className={styles.right}>
                     <img src="/assets/phone.svg" alt="phone" />
-                    <p>+7 747 588 08 06</p>
-                    <p>+7 747 588 08 06</p>
+                    <p>+7 707 548 08 06</p>
+                    <p>+7 707 548 08 06</p>
                 </div>
                 <div className={styles.rightGarant} >
                     <h4>Гарантия 2 года</h4>
