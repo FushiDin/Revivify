@@ -1,0 +1,396 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 15px;
+  padding-left: 128px;
+  padding-right: 126px;
+  flex-wrap: wrap;
+}
+
+.left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.left img {
+  width: 65px;
+  border-radius: 100px;
+}
+
+.leftSecond {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+
+.leftSecond img {
+  width: 40px;
+  margin-right: -10px;
+  height: 22px;
+}
+
+.leftSecond p:nth-child(3) {
+  color: #0391D3;
+}
+
+.mid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mid img {
+  width: 20px;
+  margin-left: -150px;
+  position: absolute;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 250px;
+}
+
+.right img {
+  width: 20px;
+  position: absolute;
+  margin-left: -25px;
+}
+
+.rightGarant {
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: -300px;
+  margin-right: 20px;
+  border-radius: 20px;
+  background-color: red;
+}
+
+.rightGarant h4 {
+  width: 180px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 5000px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1.006vw;
+    padding-left: 8.586vw;
+    padding-right: 8.45vw;
+  }
+
+  .left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .left img {
+    width: 4.36vw;
+    border-radius: 6.684vw;
+  }
+
+  .leftSecond {
+    display: flex;
+    flex-direction: row;
+    gap: 0.268vw;
+  }
+
+  .leftSecond img {
+    width: 2.68vw;
+    margin-right: -0.67vw;
+    height: 1.475vw;
+    margin-top: 0.400vw;
+  }
+
+  .leftSecond p:nth-child(3) {
+    color: #0391D3;
+  }
+
+  .leftSecond p {
+    font-size: 1.406vw;
+  }
+
+  .mid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mid p {
+    font-size: 1.306vw;
+  }
+
+  .mid img {
+    width: 1.34vw;
+    display: flex;
+    flex-direction: row;
+    margin-left: -11.06vw;
+    position: absolute;
+  }
+
+  .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 16.77vw;
+  }
+
+  .right img {
+    width: 1.34vw;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-left: -1.67vw;
+  }
+
+  .right p {
+    font-size: 1.300vw;
+  }
+
+  .rightGarant {
+    height: 3.69vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: -20.12vw;
+    margin-right: 1.34vw;
+    border-radius: 1.34vw;
+    background-color: red;
+  }
+
+  .rightGarant h4 {
+    width: 12.07vw;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.006vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+  }
+
+  .left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .left img {
+    width: 10vw;
+    border-radius: 6.684vw;
+  }
+
+  .leftSecond {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5vw;
+  }
+
+  .leftSecond img {
+    width: 2.5vw;
+    margin-right: -1vw;
+    height: 2.5vw;
+    margin-top: 0.400vw;
+    margin-left: 1vw;
+  }
+
+  .leftSecond p:nth-child(3) {
+    color: #0391D3;
+    margin-left: -1vw;
+  }
+
+  .leftSecond p {
+    font-size: 2vw;
+  }
+
+  .mid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mid p {
+    font-size: 2vw;
+  }
+
+  .mid img {
+    width: 2vw;
+    display: flex;
+    flex-direction: row;
+    margin-left: -17vw;
+    ;
+  }
+
+  .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 14vw;
+  }
+
+  .right img {
+    width: 2.5vw;
+    display: flex;
+    flex-direction: row;
+    margin-left: -3.4vw;
+  }
+
+  .right p {
+    font-size: 2vw;
+  }
+
+  .rightGarant {
+    height: 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: -17.12vw;
+    margin-right: 1.34vw;
+    margin-top: 2.4vw;
+    border-radius: 2vw;
+    background-color: red;
+  }
+
+  .rightGarant h4 {
+    width: 14vw;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4vw;
+  }
+}
+
+
+@media (max-width:570px) {
+    .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+
+  .left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .left img {
+    width: 11vw;
+    border-radius: 7vw;
+  }
+
+  .leftSecond {
+    display: flex;
+    flex-direction: row;
+    gap: 2.3vw;
+  }
+
+  .leftSecond img {
+    width: 3vw;
+    margin-right: -2vw;
+    height: 3vw;
+    margin-top: 0.200vw;
+    margin-left: 2vw;
+  }
+
+  .leftSecond p:nth-child(3) {
+    color: #0391D3;
+    margin-left: -2vw;
+  }
+
+  .leftSecond p {
+    font-size: 2.3vw;
+  }
+
+  .mid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mid p {
+    font-size: 2.3vw;
+  }
+
+  .mid img {
+    width: 2.3vw;
+    display: flex;
+    flex-direction: row;
+    margin-left: -18vw;;
+  }
+
+  .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 16vw;
+  }
+
+  .right img {
+    width: 2.5vw;
+    display: flex;
+    flex-direction: row;
+    margin-left: -2.4vw;
+  }
+
+  .right p {
+    font-size: 2.3vw;
+  }
+
+  .rightGarant {
+    height: 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: -17.12vw;
+    margin-right: 1.34vw;
+    margin-top: 2.4vw;
+    border-radius: 2vw;
+    background-color: red;
+  }
+
+  .rightGarant h4 {
+    width: 14vw;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4vw;
+  }
+
+}
